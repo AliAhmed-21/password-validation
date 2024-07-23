@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Password Validation</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+<body>
+  <div class="container">
+    <center><h1>Password Validation</h1></center>
+    <div class="password-container">
+      <input type="password" id="myInput" placeholder="Enter password">
+      <h2>Password should contain:</h2>
+      <ul>
+        <li>
+          <span id="letter">
+            <i class="fas fa-times"></i>
+            1 <b>Letter</b>
+          </span>
+        </li>
+        <li>
+          <span id="capital">
+            <i class="fas fa-times"></i>
+            1 <b>Capital letter</b>
+          </span>
+        </li>
+        <li>
+          <span id="number">
+            <i class="fas fa-times"></i>
+            1 <b>Number(0-9)</b>
+          </span>
+        </li>
+        <li>
+          <span id="length">
+            <i class="fas fa-times"></i>
+            <b>Minimum 8 characters</b>
+          </span>
+        </li>
+        <li>
+          <span id="special">
+            <i class="fas fa-times"></i>
+            1 <b>Special character</b>
+          </span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
